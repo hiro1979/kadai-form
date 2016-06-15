@@ -1,0 +1,49 @@
+@charset utf-8;
+
+h1{
+  text-align: center;
+}
+body{
+  width:90%;
+  margin:0 auto;}
+textarea{
+
+  width:400px;
+  height:200px;
+}
+.hoge{
+  width:300px;
+  height:50px;
+}
+table{
+
+  text-align: center;
+  border:2px;
+}
+
+tr{
+  width:400px;
+  height:150px;
+}
+td{
+  width:400px;
+
+  border-collapse: collapse;
+  border: solid 2px;
+  border-color:black;
+}
+
+td.left{
+  background-color: #ADD8E6;
+
+}
+/*border:noneを使うと、ボタンが高くなる。✳︎*/
+.submit_button{
+  font-size: 30px;
+border:none;
+background-color:yellow;
+margin-left: 320px;
+margin-top:20px;
+width:150px;
+height:50px !important;
+}
